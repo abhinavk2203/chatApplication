@@ -1,0 +1,26 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "This is a real-time chat application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavk2203/chatApplication.git"
+  },
+  "author": "ABHINAV KUMAR SINGH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavk2203/chatApplication/issues"
+  },
+  "homepage": "https://github.com/abhinavk2203/chatApplication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
